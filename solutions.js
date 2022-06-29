@@ -1,47 +1,47 @@
 //PART 1
-// const evens = [2, 4, 6, 8];
+const evens = [2, 4, 6, 8];
 
-// const moreEvens = [...evens, 10, 12, 14, 206];
+const moreEvens = [...evens, 10, 12, 14, 206];
 
-// const oddNums = [1, 3, 5, 9];
+const oddNums = [1, 3, 5, 9];
 
-// const moreOdds = [...oddNums, 13, 15, 19, 407];
+const moreOdds = [...oddNums, 13, 15, 19, 407];
 
-// const numbers = [...moreEvens, ...moreOdds, 42, 64, 24];
+const numbers = [...moreEvens, ...moreOdds, 42, 64, 24];
 
-// console.log(numbers);
+console.log(numbers);
 
-// const nfcEast = ["Eages", "NY Giants", "Cowboys", "Commanders"];
-// const nfcSouth = ["Falcons", "Panthers", "Saints", "Buccaneers"];
-// const nfcNorth = ["Bears", "Vikings", "Lions", "Packers"];
-// const nfcWest = ["Cardinals", "Rams", "49ers", "SeaHawks"];
-// const nfcDivision = [...nfcEast, ...nfcSouth, ...nfcNorth, ...nfcWest];
+const nfcEast = ["Eages", "NY Giants", "Cowboys", "Commanders"];
+const nfcSouth = ["Falcons", "Panthers", "Saints", "Buccaneers"];
+const nfcNorth = ["Bears", "Vikings", "Lions", "Packers"];
+const nfcWest = ["Cardinals", "Rams", "49ers", "SeaHawks"];
+const nfcDivision = [...nfcEast, ...nfcSouth, ...nfcNorth, ...nfcWest];
 
-// console.log(nfcDivision);
+console.log(nfcDivision);
 
 //PART 2
 //1. Define an object faveFoods that has keys representing three of your favorite foods and the values should be the restaurant or locale where they are from.
 // 2. Now make another object and do the same thing but this time ask your neighbor what their three favorite foods are. Literally. Go next door and ask them (jk that might not be safe, just pretend you know your neighbor - her name is Janet. very kind. lets you know that it is your other neighbor that is the smoker, not her. ok, Janet, we believe you.).
 // 3. Using the spread operator, build a final object allFoods with the items from faveFoods and janetFaveFoods together.
 
-// const faveFoods = {
-//     burger: {restaurant: 'Mcdonalds'},
-//     hotDog: {restaurant: 'WeenieHutJunior'},
-//     cheeseSteak: {restaurant: 'Ishkabibles'}
-// }
+const faveFoods = {
+    burger: {restaurant: 'Mcdonalds'},
+    hotDog: {restaurant: 'WeenieHutJunior'},
+    cheeseSteak: {restaurant: 'Ishkabibles'}
+}
 
-//  const janetFaveFoods ={
-//     Ramen: {restaurant: 'Ichiraku Ramen'},
-//     KrabbyPatty: {restaurant: 'Krusty Krab'},
-//     food6: {restaurant: 'Blah'}
-//  }
+ const janetFaveFoods ={
+    Ramen: {restaurant: 'Ichiraku Ramen'},
+    KrabbyPatty: {restaurant: 'Krusty Krab'},
+    food6: {restaurant: 'Blah'}
+ }
 
-//  const bothFoods = {
-//     ...faveFoods,
-//     ...janetFaveFoods
-//  }
+ const bothFoods = {
+    ...faveFoods,
+    ...janetFaveFoods
+ }
 
-// console.log(bothFoods)
+console.log(bothFoods)
 
 //PART 3
 // 1. Define yourself in a javascript Object with three keys: name, age, and hometown.
