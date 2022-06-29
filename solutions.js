@@ -61,12 +61,11 @@ const pet = {
   petAge: 1,
 };
 
-// const { fullName, age, homeTown } = person;
-
 const newPerson = {...person, ...pet}
+console.log(newPerson) //Way 1
 
-const {fullName, age, homeTown, petName} = newPerson;
 
+const {fullName, age, homeTown, petName} = newPerson; //Way 2
 console.log(fullName)
 console.log(age)
 console.log(homeTown)
